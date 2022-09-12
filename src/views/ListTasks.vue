@@ -31,7 +31,7 @@
 						<th>Tags</th>
 						<th>Description</th>
 						<th>Status</th>
-						<th>Open task</th>
+						<th>Update task</th>
 						<th>Delete task</th>
 					</tr>
 				</thead>
@@ -53,7 +53,7 @@
 								custom
 								v-slot="{ href, navigate }"
 							>
-								<a :href="href" @click="navigate" class="btn btn-small">Open</a>
+								<a :href="href" @click="navigate" class="btn btn-small">Update</a>
 							</router-link>
 						</td>
 						<td>
