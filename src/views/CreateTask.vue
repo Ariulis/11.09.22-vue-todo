@@ -52,6 +52,7 @@
 			submitHandler() {
 				const task = {
 					id: Date.now(),
+					status: 'active',
 					title: this.title,
 					chips: this.chips.chipsData,
 					description: this.description,
